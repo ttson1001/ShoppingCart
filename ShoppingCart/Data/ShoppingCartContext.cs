@@ -15,5 +15,8 @@ namespace ShoppingCart.Data
         }
 
         public DbSet<ShoppingCart.Entities.Product> Product { get; set; }
+
+        public DbSet<ShoppingCart.Entities.Cart> Cart { get; set; }
+        public DbSet<ShoppingCart.Entities.CartDetail> CartDetail { get; set; }
     }
 }
